@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8baffb5f-9bc8-4f02-8086-7692736d756b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part_03.rb" afterPath="$PROJECT_DIR$/part_03.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hw0.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/part_01.rb" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381671231170" ignored="false" />
     <file path="/part_02.rb" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381673173535" ignored="false" />
-    <file path="/part_03.rb" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381680155871" ignored="false" />
-    <file path="/Ruby Console" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381679757467" ignored="false" />
-    <file path="/Dummy.txt" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381680272457" ignored="false" />
+    <file path="/part_03.rb" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381680895760" ignored="false" />
+    <file path="/Ruby Console" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381680374134" ignored="false" />
+    <file path="/Dummy.txt" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381680285914" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <file leaf-file-name="part_03.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/part_03.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="30" selection-start="963" selection-end="963" vertical-scroll-proportion="0.71704745">
+            <state line="26" column="32" selection-start="992" selection-end="992" vertical-scroll-proportion="0.77003485">
               <folding />
             </state>
           </provider>
@@ -84,9 +85,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="357" />
+    <option name="x" value="688" />
+    <option name="y" value="2" />
     <option name="width" value="1075" />
-    <option name="height" value="1040" />
+    <option name="height" value="949" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -147,7 +149,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="IRB console.IRB console">
+  <component name="RunManager" selected="Ruby.part_03">
     <configuration default="false" name="part_01" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="hw0" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -345,8 +347,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="IRB console.IRB console" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.part_03" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.part_03" />
+        <item index="1" class="java.lang.String" itemvalue="IRB console.IRB console" />
         <item index="2" class="java.lang.String" itemvalue="Ruby.part_02" />
         <item index="3" class="java.lang.String" itemvalue="Ruby.part_01" />
       </list>
@@ -380,23 +382,47 @@
       <created>1381680274985</created>
       <updated>1381680274985</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="idea commit">
+      <created>1381680288317</created>
+      <updated>1381680288317</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="357" y="0" width="1075" height="1040" extended-state="0" />
+    <frame x="688" y="2" width="1075" height="949" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289183" sideWeight="0.4995064" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.4995064" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12734452" sideWeight="0.67108166" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12734452" sideWeight="0.75214726" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39867842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289183" sideWeight="0.5004936" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22295806" sideWeight="0.4995064" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5004936" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24785276" sideWeight="0.4995064" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.4995064" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -511,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part_01.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="20" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part_02.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="8" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
@@ -525,9 +544,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/part_01.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="20" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/part_03.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="30" selection-start="963" selection-end="963" vertical-scroll-proportion="0.71704745">
+        <state line="26" column="32" selection-start="992" selection-end="992" vertical-scroll-proportion="0.77003485">
           <folding />
         </state>
       </provider>

@@ -21,11 +21,12 @@ class BookInStock
   end
 
   def price_as_string
-    "$".concat(@price.to_s)
+    price = "%0.2f" % @price
+    "$".concat(price.to_s)
   end
 
 
 end
 
-book1 = BookInStock.new("123456789", 10.34)
+book1 = BookInStock.new("123456789", 10.34535)
 puts book1.price_as_string

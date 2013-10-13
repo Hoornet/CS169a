@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8baffb5f-9bc8-4f02-8086-7692736d756b" name="Default" comment="" />
+    <list default="true" id="8baffb5f-9bc8-4f02-8086-7692736d756b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="hw0.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/part_01.rb" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381671231170" ignored="false" />
     <file path="/part_02.rb" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381673173535" ignored="false" />
-    <file path="/part_03.rb" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381679571533" ignored="false" />
+    <file path="/part_03.rb" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381680155871" ignored="false" />
     <file path="/Ruby Console" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381679757467" ignored="false" />
+    <file path="/Dummy.txt" changelist="8baffb5f-9bc8-4f02-8086-7692736d756b" time="1381680091945" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +40,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part_02.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="part_02.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part_02.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="923" selection-end="923" vertical-scroll-proportion="0.6">
+            <state line="29" column="8" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part_03.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="part_03.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/part_03.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="70" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
+            <state line="24" column="30" selection-start="963" selection-end="963" vertical-scroll-proportion="0.71704745">
               <folding />
             </state>
           </provider>
@@ -61,6 +65,15 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -72,11 +85,11 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="841" />
+    <option name="x" value="357" />
     <option name="width" value="1075" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -129,7 +142,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -340,6 +354,23 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8baffb5f-9bc8-4f02-8086-7692736d756b" name="Default" comment="" />
@@ -349,19 +380,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="841" y="0" width="1075" height="1040" extended-state="0" />
+    <frame x="357" y="0" width="1075" height="1040" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289183" sideWeight="0.4995064" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12734452" sideWeight="0.77753305" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12734452" sideWeight="0.67108166" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39867842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22246696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289183" sideWeight="0.5004936" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22295806" sideWeight="0.4995064" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.4995064" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -474,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part_03.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="70" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part_01.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="20" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0">
@@ -490,7 +514,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/part_02.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="923" selection-end="923" vertical-scroll-proportion="0.6">
+        <state line="29" column="8" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part_03.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="30" selection-start="963" selection-end="963" vertical-scroll-proportion="0.71704745">
           <folding />
         </state>
       </provider>

@@ -1,6 +1,10 @@
 module FunWithStrings
   def palindrome?
     # your code here
+    self.to_s  =~ /\w+/
+    words = $1
+
+    (words.upcase == words.reverse.upcase) ? true : false
   end
   def count_words
     # your code here

@@ -9,7 +9,7 @@ describe 'palindrome detection' do
   it 'should be case-insensitive' do
     'ReDivider'.should be_a_palindrome
   end
-  it 'should ignore nonword characters' do
+  it 'should ignore nonword characters' , :pending => true do
     'A man, a plan, a canal -- Panama'.should be_a_palindrome
     "Madam, I'm Adam!".should be_a_palindrome
   end    

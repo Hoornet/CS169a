@@ -2,7 +2,7 @@ module FunWithStrings
   def palindrome?
     # your code here
     self.to_s  =~ /\w+/
-    words = $1
+    words =  self.to_s
 
     (words.upcase == words.reverse.upcase) ? true : false
   end

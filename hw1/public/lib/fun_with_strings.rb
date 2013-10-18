@@ -1,7 +1,6 @@
 module FunWithStrings
   def palindrome?
-    self.to_s  =~ /\w+/
-    words =  self.to_s
+    words = self.to_s.gsub(/\W+/, '\1')
     (words.upcase == words.reverse.upcase) ? true : false
   end
 

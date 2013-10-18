@@ -7,14 +7,17 @@ module FunWithStrings
 
   def count_words
     hash = self.downcase.lstrip.split(/\W+/)
-    out = Hash.new{0}
+    out = Hash.new(0)   # defaults
     hash.each { |w| out[w] += 1 }
     out
   end
+
   def anagram_groups
     hsh = self.downcase.lstrip.split(/\W+/)
     out = Hash.new(0)
-    hsh.each { |wrd| out[wrd].scan(/./).sort.join}
+    hsh.each do |wrd|
+      out[wrd].scan(/./).sort.join
+    end
     out
   end
 end

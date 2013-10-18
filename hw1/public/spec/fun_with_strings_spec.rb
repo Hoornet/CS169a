@@ -12,7 +12,7 @@ describe 'palindrome detection' do
   it 'should ignore nonword characters'  do
     'A man, a plan, a canal -- Panama'.should be_a_palindrome
     "Madam, I'm Adam!".should be_a_palindrome
-  end    
+  end
 end
 
 describe 'word count' do
@@ -40,7 +40,7 @@ describe 'word count' do
   end
 end
 
-describe 'anagram grouping' do
+describe 'anagram grouping' , :pending => true  do
   describe 'sanity checks' do
     it 'should work on the empty string' do
       ''.anagram_groups.should == []

@@ -25,7 +25,7 @@ class JellyBean < Dessert
     (@flavor=='licorice' ) ? false : true
   end
 end
-
+nil
 
 # hb = JellyBean.new('licorice')
 # puts hb.delicious?

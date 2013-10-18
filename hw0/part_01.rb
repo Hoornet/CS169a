@@ -10,9 +10,11 @@ def sum(numbers)
   return 0 if size == 0
 
   sum = 0
-  for num in numbers
-    sum += num
+
+  numbers.each do |element|
+    sum += element
   end
+
 
   sum
 end
@@ -27,8 +29,7 @@ def max_2_sum(numbers)
   size = numbers.size
   return 0 if size == 0
   return numbers[0] if size == 1
-
-  nums = []
+#  nums = []
   nums = numbers.sort!.last(2)
   nums[0] + nums[1]
 end
@@ -37,6 +38,7 @@ end
 
 #Define a method sum_to_n? which takes an array of integers and an additional integer, n, as arguments and returns
 #true if any two elements in the array of integers sum to n. An empty array should sum to zero by definition.
+=begin
 def sum_to_n?(numbers, n)
   size = numbers.size
   return true if size == 0 and n==0
@@ -56,3 +58,44 @@ end
 
 #puts sum_2_n?([10,20,30,19], 60)
 #puts sum_2_n?([], 0)
+=end
+
+def sum_to_n?(array, n)
+
+  return true if array.empty? && n == 0
+  i=0
+  j=1
+
+  while i < array.size
+    while j<array.size
+      if array[i]+array[j]==n
+        return true
+      end
+      j+=1
+    end
+    i+=1
+    j=i+1
+  end
+
+  false
+end
+
+#puts sum_to_n?([10,20,30,19], 60)
+#puts sum_to_n?([], 0)
+
+def sum_2_n?(arr, n)
+  return true if arr.empty? && n == 0
+
+  desired_number = 0
+  arr.each do |e|
+    desired_number = n - e
+
+    return true if arr.include?(desired_number)   #=> false or true
+  end
+
+  false
+end
+
+
+puts sum_2_n?([10,20,40,19], 60)
+puts sum_2_n?([], 0)

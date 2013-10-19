@@ -14,12 +14,7 @@ module FunWithStrings
   def anagram_groups
     return [] if self.empty?
 
-    hsh = self.downcase.lstrip.split(/\W+/)
-    out = Hash.new(0)
-    hsh.each do |wrd|
-      out[wrd].scan(/./).sort.join
-    end
-    out.to_a
+
   end
 end
 

@@ -38,28 +38,8 @@ end
 
 #Define a method sum_to_n? which takes an array of integers and an additional integer, n, as arguments and returns
 #true if any two elements in the array of integers sum to n. An empty array should sum to zero by definition.
-=begin
-def sum_to_n?(numbers, n)
-  size = numbers.size
-  return true if size == 0 and n==0
 
-
-  numbers.each do |el1|
-    numbers_without_n = numbers.reject{ |el| el==el1 }  # create array without n
-    numbers_without_n.each do |el2|
-      if el1 + el2 == n
-        return true
-      end
-    end
-  end
-
-  false
-end
-
-#puts sum_2_n?([10,20,30,19], 60)
-#puts sum_2_n?([], 0)
-=end
-
+#procedural version
 def sum_to_n?(array, n)
 
   return true if array.empty? && n == 0
@@ -83,19 +63,17 @@ end
 #puts sum_to_n?([10,20,30,19], 60)
 #puts sum_to_n?([], 0)
 
+# functional version
 def sum_2_n?(arr, n)
   return true if arr.empty? && n == 0
 
   desired_number = 0
   arr.each do |e|
     desired_number = n - e
-
     return true if arr.include?(desired_number)   #=> false or true
   end
 
   false
 end
-
-
 puts sum_2_n?([10,20,40,19], 60)
 puts sum_2_n?([], 0)

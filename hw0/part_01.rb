@@ -10,11 +10,9 @@ def sum(numbers)
   return 0 if size == 0
 
   sum = 0
-
   numbers.each do |element|
     sum += element
   end
-
 
   sum
 end

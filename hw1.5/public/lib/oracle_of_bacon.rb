@@ -71,3 +71,4 @@ class OracleOfBacon
   end
 end
 
+oob = OracleOfBacon.new('38b99ce9ec87')

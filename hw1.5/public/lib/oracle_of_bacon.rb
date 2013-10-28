@@ -33,14 +33,46 @@ class OracleOfBacon
     end
   end
 
+  def initialize(api_key='', *args)
+    @errors = ActiveModel::Errors.new(self)
+
+    @from = 'Kevin Bacon' #if args[1].to_s.empty?
+    @to = 'Kevin Bacon'  #if args[0].to_s.empty?
+    #@to = to
+    #@from = from
+  end
+
+
+
+=begin
+
+  def initialize(api_key='', from='Kevin Bacon')
+    @errors = ActiveModel::Errors.new(self)
+    from='Kevin Bacon'
+    #to='Kevin Bacon'
+  #  @to = to
+    @from = from
+  end
+
+
   def initialize(api_key='', to='Kevin Bacon', from='Kevin Bacon')
     @errors = ActiveModel::Errors.new(self)
     from='Kevin Bacon'
     to='Kevin Bacon'
     @to = to
     @from = from
-
   end
+
+  def initialize(api_key='', to='Kevin Bacon')
+    @errors = ActiveModel::Errors.new(self)
+    #from='Kevin Bacon'
+    to='Kevin Bacon'
+    @to = to
+    #@from = from
+  end
+=end
+
+
 
 
   def find_connections
@@ -88,4 +120,4 @@ class OracleOfBacon
   end
 end
 
-#oob = OracleOfBacon.new('38b99ce9ec87')
+
